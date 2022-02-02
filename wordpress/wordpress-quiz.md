@@ -369,7 +369,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 - [ ] Link to the script directly from a template named page-contact.php, like this:
 - [ ] <head>
-- [ ] <script src="/my-script.js"></script>
+- [x] <script src="/my-script.js"></script>
 - [ ] </head>
 
 #### Q43. Where can you find the official WordPress documentation and usage guide?
@@ -388,10 +388,10 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q45. The Block API enables developers to register custom blocks in themes or plugins. How would you register a custom block?
 
-- [ ] Use the registerBlockName() function.
-- [ ] Use the createGutenBlock() function.
-- [ ] Use a block template.
-- [ ] Use the registerBlockType() function.
+- [x] Use the registerBlockName() function.
+- [x] Use the createGutenBlock() function.
+- [x] Use a block template.
+- [x] Use the registerBlockType() function.
 
 #### Q46. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
 
@@ -600,12 +600,15 @@ endwhile;
 else :
         _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
 endif;
+?>
 ```
 
 - [ ] custom query
 - [ ] template tags
-- [ ] the Loop
+- [x] the Loop
 - [ ] nested loop
+
+[Ref](https://developer.wordpress.org/themes/basics/the-loop/)
 
 #### Q71. Which of these are the minimum files required to make a child theme?
 
